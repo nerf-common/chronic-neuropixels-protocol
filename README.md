@@ -3,10 +3,26 @@
 
 ![alt text](fixtures_overview.jpg)
 
-## 3D fixtures
+### Neuropixels chronic fixtures
+
 Parts can be printed at [Materalize](https://www.materialise.com/en/manufacturing?gclid=Cj0KCQiA3smABhCjARIsAKtrg6KI-4CloUFmDMtG961YggM_I_BZ4re97FsboS6jPqCWgjePmS5XPqQaAv8xEALw_wcB)
 
-### Data analysis steps
+## CAD files for 3D parts
+
+- [Single probe fixtures](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/single_probe_fixture)
+- [Dual probe fixture](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/dual_probe_fixture)
+- [Movable probe fixture](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/movable_probe_fixture)
+- [Adaptors for stereotaxic frame](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/adaptor_parts) 
+
+### Data and Code
+
+## System requirements
+
+__Operating system__: Windows Server 2012 R2 Standard
+__Versions of the software__:MATLAB (R2020b), Python (3.7.7)
+
+## Overview of data analysis steps
+
 Raw data is filtered and sorted using adapted version of [ecephys_spike_sorting pipeline](https://github.com/jenniferColonell/ecephys_spike_sorting)
 
 
@@ -31,3 +47,7 @@ idx = Tmetric.amplitude_cutoff<0.1&...
 __Spike statistics__:
 
 Spike count, amplitude, RMS values are extracted from filtered data by using [neuropixels-evaluation-tools](https://github.com/jenniferColonell/Neuropixels_evaluation_tools) 
+
+## Instructions for custom written code
+
+- add the path for
