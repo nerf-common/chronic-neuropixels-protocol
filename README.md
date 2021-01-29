@@ -2,7 +2,7 @@
 
 (Chronic Neuropixels recordings in mice and rats; Rik van Daal , Cagatay Aydin , Frédéric Michon , Arno Aarts , Michael Kraft , Fabian Kloosterman, Nature Protocols; NP-P200042C, 2021 )
 
-![alt text](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/figures/fixtures_overview.jpg)
+![alt text](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/figures/fixtures_overview.jpg "overview")
 
 ### 3D fixtures
 Parts can be printed at [Materalize](https://www.materialise.com/en/manufacturing?gclid=Cj0KCQiA3smABhCjARIsAKtrg6KI-4CloUFmDMtG961YggM_I_BZ4re97FsboS6jPqCWgjePmS5XPqQaAv8xEALw_wcB)
