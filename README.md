@@ -3,25 +3,26 @@
 
 ![alt text](fixtures_overview.jpg)
 
-### Neuropixels chronic fixtures
+## Neuropixels chronic fixtures
 
 Parts can be printed at [Materalize](https://www.materialise.com/en/manufacturing?gclid=Cj0KCQiA3smABhCjARIsAKtrg6KI-4CloUFmDMtG961YggM_I_BZ4re97FsboS6jPqCWgjePmS5XPqQaAv8xEALw_wcB)
 
-## CAD files for 3D parts
+### CAD files for 3D parts
 
-- [Single probe fixtures](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/single_probe_fixture)
+- [Single probe fixture](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/single_probe_fixture)
 - [Dual probe fixture](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/dual_probe_fixture)
 - [Movable probe fixture](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/movable_probe_fixture)
 - [Adaptors for stereotaxic frame](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/CAD_files/adaptor_parts) 
 
-### Data and Code
+## Data and Code
 
-## System requirements
+### System requirements
 
 __Operating system__: Windows Server 2012 R2 Standard
+
 __Versions of the software__:MATLAB (R2020b), Python (3.7.7)
 
-## Overview of data analysis steps
+### Overview of data analysis steps
 
 Raw data is filtered and sorted using adapted version of [ecephys_spike_sorting pipeline](https://github.com/jenniferColonell/ecephys_spike_sorting)
 
@@ -32,7 +33,7 @@ __Filtering__: [CatGT](https://billkarsh.github.io/SpikeGLX/#catgt) Version 1.2.
 catGT_cmd_string = '-prb_fld -out_prb_fld -aphipass=300 -aplopass=9000 -gbldmx -gfix=0.4,0.10,0.02'
 ```
 
-__Sorting__: Kilosort2 is used with default parameters
+__Sorting__: [Kilosort2](https://github.com/MouseLand/Kilosort) is used with default parameters
 
 Number of good units are extracted by using custom written `update_cluster_group.m` function located in [code](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/code)
 
@@ -50,4 +51,8 @@ Spike count, amplitude, RMS values are extracted from filtered data by using [ne
 
 ## Instructions for custom written code
 
-- add the path for
+1. Download and extract the [meta data](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/data)
+
+
+2.
+	
