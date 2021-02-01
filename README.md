@@ -5,7 +5,7 @@
 
 ## Neuropixels chronic fixtures
 
-Parts can be printed at [Materalize](https://www.materialise.com/en/manufacturing?gclid=Cj0KCQiA3smABhCjARIsAKtrg6KI-4CloUFmDMtG961YggM_I_BZ4re97FsboS6jPqCWgjePmS5XPqQaAv8xEALw_wcB)
+Parts can be printed at [Materialise](https://www.materialise.com/en/manufacturing?gclid=Cj0KCQiA3smABhCjARIsAKtrg6KI-4CloUFmDMtG961YggM_I_BZ4re97FsboS6jPqCWgjePmS5XPqQaAv8xEALw_wcB)
 
 ### CAD files for 3D parts
 
