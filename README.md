@@ -53,6 +53,20 @@ Spike count, amplitude, RMS values are extracted from filtered data by using [ne
 
 1. Download and extract the [meta data](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/data)
 
+2. Add code and data folder into the MATLAB path (using `addpath` function)
 
-2.
-	
+3. Change `filtered_folder` as your data directory where data is extracted and change `figure_folder` as figure directory where one can have pdf printed figure panels in `plot_event_rate_unit_yield.m` script. This scipt reads meta data as explained below;
+
+```matlab
+%% read data files
+% hparams.txt - user defined meta file (contains; recording date, probe...)
+% XX.meta - meta file generated via spikeglx during the data acqusition
+% files indicated below generated via neuropixels evaluations tools
+% XX.ap_sum.txt - summary metrics 
+% XX.ap_chan.txt - metrics generated for each channel across the shank
+% XX.ap_hist.txt - spike amplitudes histogram 
+% cluster_group.tsv - summary file indicating unit yield generated via KS2
+```		
+4. Run `plot_event_rate_unit_yield.m` script.
+
+5. Generated figure panels can be found in [figures](https://github.com/nerf-common/chronic-neuropixels-protocol/blob/master/figures)
